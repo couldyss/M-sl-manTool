@@ -206,7 +206,6 @@ $timer.Add_Tick({
 })
 $timer.Start()
 
-$Window.ShowDialog() | Out-Null
 # ================================
 # Ultimate Downloader Tool - FULL ŞAHESEER Part 2
 # Minecraft, Media, Visual kategorileri 20+ item + ikon + animasyon + hover + easter egg
@@ -301,7 +300,6 @@ $EggTimer.Add_Tick({
         4 {"🎯 Bonus item hazır!"}
         5 {"🔥 Animasyon patladı!"}
     }
-    [System.Windows.MessageBox]::Show($msg,"Easter Egg",$null,[System.Windows.MessageBoxButton]::OK)
 })
 $EggTimer.Start()
 
