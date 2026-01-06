@@ -81,7 +81,6 @@ Add-Type -AssemblyName PresentationFramework,PresentationCore,WindowsBase,System
 
 $Reader = New-Object System.Xml.XmlNodeReader $XAML
 $Window = [Windows.Markup.XamlReader]::Load($Reader)
-$Window.Add_ContentRendered({ ($Window.FindResource("FadeIn")).Begin($Window) })
 $Window.Add_MouseLeftButtonDown({ $Window.DragMove() })
 
 $ContentPanel = $Window.FindName("ContentPanel")
