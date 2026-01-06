@@ -1,0 +1,2 @@
+# M-sl-manTool
+OnlyMuslims
